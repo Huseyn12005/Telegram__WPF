@@ -1,0 +1,68 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Image\menu.png" />
+    <None Remove="Image\office-push-pin.png" />
+    <None Remove="Image\Screenshot 2023-10-22 135512.png" />
+    <None Remove="Image\Screenshot 2023-10-22 140552.png" />
+    <None Remove="Image\Screenshot 2023-10-22 140600.png" />
+    <None Remove="Image\Screenshot 2023-10-22 140608.png" />
+    <None Remove="Image\Screenshot 2023-10-22 142435.png" />
+    <None Remove="Image\Screenshot 2023-10-22 163044.png" />
+    <None Remove="Image\Screenshot 2023-10-22 163807.png" />
+    <None Remove="Image\Screenshot 2023-10-22 164200.png" />
+    <None Remove="Image\Screenshot 2023-10-22 164639.png" />
+    <None Remove="Image\Screenshot 2023-10-22 165734.png" />
+    <None Remove="Image\telegram.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Image\menu.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Image\office-push-pin.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Image\Screenshot 2023-10-22 135512.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Image\Screenshot 2023-10-22 140552.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Image\Screenshot 2023-10-22 140600.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Image\Screenshot 2023-10-22 140608.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Image\Screenshot 2023-10-22 142435.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Image\Screenshot 2023-10-22 163044.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Image\Screenshot 2023-10-22 163807.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Image\Screenshot 2023-10-22 164200.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Image\Screenshot 2023-10-22 164639.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Image\Screenshot 2023-10-22 165734.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Image\telegram.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>
